@@ -1,19 +1,23 @@
 import React from 'react'
-import './navbar.css'
-import plogo from "../../assets/spoonofsugar.png"
+import './Navbar.css'
+import plogo from "../../assets/logo-icon.png"
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <nav>
-      <img src = {plogo} alt = "logo" />
-      <ul>
-        <li>Home</li>
-        <li>Where Can We Eat Next</li> 
-        <li>About Us</li>
-        <li>Contact Us</li>
+    <nav className="navbar">
+      <div className="navbar-left">
+        <img src={plogo} alt="logo" className="navbar-logo" />
+        <h1 className="navbar-title">UofT Food Finds</h1>
+      </div>
+      <ul className="navbar-menu">
+        <li className="navbar-item">Home</li>
+        <li className="navbar-item">Where To Eat Next</li>
+        <li className="navbar-item">About Us</li>
+        <li className="navbar-item">Contact Us</li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default navbar 
+export default Navbar;
+
