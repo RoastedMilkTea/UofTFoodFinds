@@ -7,9 +7,10 @@ body, html {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+  
     padding: 1rem;
-    background-color: #bba9ca;
+    background-color: #236cbb;
     color: #fff;
 }
 
@@ -31,11 +32,16 @@ body, html {
   
 .navbar-menu {
     list-style: none;
+    margin-left: auto;
     display: flex;
     gap: 1rem;
 }
   
 .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
     cursor: pointer;
     transition: color 0.3s;
     font-family: 'Roboto', sans-serif;
@@ -43,5 +49,12 @@ body, html {
   
 .navbar-item:hover {
     color: #ddd;
+}
+
+.navbar-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
 }
   
