@@ -1,6 +1,38 @@
 .Campus{
     width: 100%;
     min-width: 100vh;
-    background: url('../../assets/uoftfrontcampus.png');
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)) url('../../assets/ft.png'); 
+    /* background: 
+    linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
+    url('../../assets/ft.png'); this is causing issue; suppose to add an gradient to the background  */
     background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Campus-text{
+    text-align: center;
+    max-width: 800px;
+}
+
+.Campus-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.Campus-text p{
+    font-size: 1.5rem;
+    margin: 10px auto 40px;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;  
 }
