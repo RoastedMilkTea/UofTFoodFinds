@@ -24,7 +24,8 @@
     margin-bottom: 1rem;
     text-align: center;
     justify-content: center; 
-    align-items: center;   
+    align-items: center;
+    color:rgba(8, 0, 58, 0.7);  
 }
 
 .Campus-text p{
@@ -34,5 +35,6 @@
     margin-bottom: 1rem;
     text-align: center;
     justify-content: center; 
-    align-items: center;  
+    align-items: center; 
+    color:rgba(8, 0, 58, 0.7);    
 }
